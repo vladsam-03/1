@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <form action="sum.php" method="get">
+                    <div class="form-group">
+                        <br>
+                        <br>
+                        <input type="number" class="form-control" name="x1">
+                        <br>
+                        <select name="operation">
+                            <option value="+">Плюс</option>
+                            <option value="-">Минус</option>
+                            <option value="*">Умножить</option>
+                            <option value="/">Разделить</option>
+                            <option value="^">В степени</option>
+                            <option value="v">Корень из</option>
+                        </select>
+                        <br>    
+                        <br>
+                        <input type="number" class="form-control" name="x2">
+                        <br>
+                        <input type="submit" value="Вычислить">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
